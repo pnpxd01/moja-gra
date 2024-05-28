@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra podobna do Agar.io</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcomeScreen">
+        <h1>Witaj w grze!</h1>
+        <button id="startButton">Start</button>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+    <div id="winScreen" style="display: none;">
+        <h1>Gratulacje! Wygrałeś!</h1>
+        <button id="restartButton">Restart</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
